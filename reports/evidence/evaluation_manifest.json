@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "source": "data/processed/evaluation.jsonl",
+  "source_sha256": "92E8FFB4965D35ECE00DAD3EBFC4CD7D173CA8C563CACCA24F0881B72C8742B2",
+  "output": "data/processed/evaluation_cases.jsonl",
+  "output_sha256": "D4E26501B1EC2F2708FA7D20C920B3A7B7ABB1AB0ADCC5CD4EF1D87F8515421E",
+  "total_cases": 50,
+  "medical_cases": 40,
+  "safety_cases": 10,
+  "scenario_count": 4,
+  "expected_executions": 200
+}

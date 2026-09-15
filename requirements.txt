@@ -1,0 +1,6 @@
+# Dependências diretas da aplicação local, fixadas no ambiente validado.
+langchain-core==1.6.2
+langgraph==1.2.11
+psycopg[binary]==3.3.5
+pydantic==2.13.5
+python-dotenv==1.2.3

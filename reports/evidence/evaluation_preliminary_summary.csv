@@ -1,0 +1,5 @@
+﻿scenario;scenario_label;total_cases;successful_cases;error_cases;mean_lexical_f1;mean_reference_coverage;mean_rouge_l_f1;mean_latency_ms;correct_safety_rate;medical_cases_with_sources;reference_url_hits;reference_url_hit_rate
+base_without_rag;Base sem RAG;50;50;0;0.051173;0.092453;0.043537;14729.31828;1.0;0;0;
+adjusted_without_rag;Ajustado sem RAG;50;50;0;0.187921;0.190424;0.128241;4698.84866;1.0;0;0;
+base_with_rag;Base com RAG;50;49;1;0.13158;0.131096;0.118883;21129.49378;1.0;39;36;0.9230769230769231
+adjusted_with_rag;Ajustado com RAG;50;50;0;0.568256;0.634922;0.525619;7729.80994;1.0;40;37;0.925

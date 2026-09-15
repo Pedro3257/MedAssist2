@@ -1,0 +1,5 @@
+﻿scenario;overlapping_cases;mean_absolute_score_difference;hallucination_agreement_rate
+base_without_rag;10;0.8;0.8
+adjusted_without_rag;10;0.6666666666666666;1.0
+base_with_rag;10;0.6666666666666666;0.8
+adjusted_with_rag;2;0.125;1.0

@@ -1,0 +1,8 @@
+# Dependências registradas no treinamento definitivo executado no Kaggle.
+# A imagem Kaggle forneceu PyTorch 2.10.0+cu128 e CUDA 12.8.
+accelerate==1.14.0
+bitsandbytes==0.50.2
+datasets==5.0.1
+peft==0.20.0
+transformers==5.16.1
+trl==1.12.0

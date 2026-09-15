@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="100" y="35" font-family="Arial" font-size="22" font-weight="bold" fill="#172033">Latência média por cenário</text>
+<text x="100" y="58" font-family="Arial" font-size="13" fill="#475569">Média das 50 execuções de cada cenário</text>
+<line x1="100" y1="420.0" x2="965" y2="420.0" stroke="#E2E8F0" stroke-width="1"/>
+<text x="88" y="424.0" text-anchor="end" font-family="Arial" font-size="11" fill="#475569">0</text>
+<line x1="100" y1="353.0" x2="965" y2="353.0" stroke="#E2E8F0" stroke-width="1"/>
+<text x="88" y="357.0" text-anchor="end" font-family="Arial" font-size="11" fill="#475569">4,860</text>
+<line x1="100" y1="286.0" x2="965" y2="286.0" stroke="#E2E8F0" stroke-width="1"/>
+<text x="88" y="290.0" text-anchor="end" font-family="Arial" font-size="11" fill="#475569">9,720</text>
+<line x1="100" y1="219.0" x2="965" y2="219.0" stroke="#E2E8F0" stroke-width="1"/>
+<text x="88" y="223.0" text-anchor="end" font-family="Arial" font-size="11" fill="#475569">14,579</text>
+<line x1="100" y1="152.0" x2="965" y2="152.0" stroke="#E2E8F0" stroke-width="1"/>
+<text x="88" y="156.0" text-anchor="end" font-family="Arial" font-size="11" fill="#475569">19,439</text>
+<line x1="100" y1="85.0" x2="965" y2="85.0" stroke="#E2E8F0" stroke-width="1"/>
+<text x="88" y="89.0" text-anchor="end" font-family="Arial" font-size="11" fill="#475569">24,299</text>
+<rect x="148.65625" y="216.9324537467333" width="118.93750000000001" height="203.0675462532667" fill="#64748B"/>
+<text x="208.125" y="207.9324537467333" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#172033">14,729</text>
+<text x="208.125" y="445" text-anchor="middle" font-family="Arial" font-size="11" fill="#172033">Base sem RAG</text>
+<rect x="364.90625" y="355.218748793196" width="118.93750000000001" height="64.78125120680399" fill="#2563EB"/>
+<text x="424.375" y="346.218748793196" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#172033">4,699</text>
+<text x="424.375" y="445" text-anchor="middle" font-family="Arial" font-size="11" fill="#172033">Ajustado sem RAG</text>
+<rect x="581.15625" y="128.695652173913" width="118.93750000000001" height="291.304347826087" fill="#F59E0B"/>
+<text x="640.625" y="119.695652173913" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#172033">21,129</text>
+<text x="640.625" y="445" text-anchor="middle" font-family="Arial" font-size="11" fill="#172033">Base com RAG</text>
+<rect x="797.40625" y="313.4320307511265" width="118.93750000000001" height="106.56796924887352" fill="#0F766E"/>
+<text x="856.875" y="304.4320307511265" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#172033">7,730</text>
+<text x="856.875" y="445" text-anchor="middle" font-family="Arial" font-size="11" fill="#172033">Ajustado com RAG</text>
+<text x="23" y="252.5" transform="rotate(-90 23 252.5)" text-anchor="middle" font-family="Arial" font-size="12" fill="#475569">Milissegundos</text>
+</svg>

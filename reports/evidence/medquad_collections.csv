@@ -1,0 +1,13 @@
+collection,xml_files,parsed_xml_files,parse_errors,documents,qa_pairs,usable_qa_pairs,missing_answer_tag,empty_answers,missing_question_tag,empty_questions,missing_qid,missing_qtype,missing_focus,missing_url,missing_source,missing_document_id,missing_focus_annotations,documents_with_cui,documents_without_cui,documents_without_qapairs,min_question_chars,max_question_chars,min_answer_chars,max_answer_chars,avg_question_chars,avg_answer_chars,copyright_excluded,preliminary_mvp
+10_MPlus_ADAM_QA,4366,4366,0,4366,17348,0,0,17348,0,0,0,0,0,0,0,0,0,2588,1778,0,0,0,0,0,0,0,True,False
+11_MPlusDrugs_QA,1312,1312,0,1312,12889,0,0,12889,0,0,0,0,0,0,0,0,0,0,1312,0,0,0,0,0,0,0,True,False
+12_MPlusHerbsSupplements_QA,99,99,0,99,792,0,0,792,0,0,0,0,0,0,0,0,0,0,99,0,0,0,0,0,0,0,True,False
+1_CancerGov_QA,116,116,0,116,729,729,0,0,0,0,0,0,0,0,0,0,0,116,0,0,24,120,49,26976,53.88,3553.37,False,True
+2_GARD_QA,2685,2685,0,2685,5394,5389,0,5,0,0,0,0,0,0,0,0,0,2685,0,0,20,138,25,8786,50.12,1298.82,False,True
+3_GHR_QA,1086,1086,0,1086,5430,5430,0,0,0,0,0,0,0,0,0,0,0,1086,0,0,21,149,34,4620,55.85,846.15,False,True
+4_MPlus_Health_Topics_QA,981,981,0,981,981,981,0,0,0,0,0,0,0,0,0,0,0,686,295,0,19,74,195,1652,36.13,873.49,False,True
+5_NIDDK_QA,157,157,0,157,1192,1192,0,0,0,0,0,0,0,0,0,0,0,157,0,6,22,191,39,13345,51.02,1638.26,False,True
+6_NINDS_QA,277,277,0,277,1088,1088,0,0,0,0,0,0,4,0,4,4,4,273,4,4,20,121,39,3391,51.67,652.88,False,True
+7_SeniorHealth_QA,48,48,0,48,769,769,0,0,0,0,0,0,0,0,0,0,0,48,0,0,18,91,68,12299,38.71,1526.44,False,True
+8_NHLBI_QA_XML,88,88,0,88,559,559,0,0,0,0,0,0,0,0,0,0,0,88,0,0,18,68,166,21804,39.3,2739.78,False,True
+9_CDC_QA,59,59,0,59,270,270,0,0,0,0,0,0,3,0,0,1,59,0,59,0,15,102,6,13622,54.58,1422.81,False,True

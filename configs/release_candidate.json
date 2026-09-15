@@ -1,0 +1,45 @@
+{
+    "name":  "MedAssist",
+    "target_version":  "1.0.0-rc1",
+    "required_paths":  [
+                           ".env.example",
+                           "README.md",
+                           "compose.yaml",
+                           "requirements.txt",
+                           "requirements-lock.txt",
+                           "requirements-training.txt",
+                           "configs/demo_questions.json",
+                           "docs/demo_script.md",
+                           "docs/MedAssit_Demo.pdf",
+                           "docs/ollama.md",
+                           "scripts/run_demo.ps1",
+                           "scripts/start_medassist.ps1",
+                           "specs/architecture.md",
+                           "specs/requirements.md",
+                           "specs/traceability.md",
+                           "reports/day7_finetuning.md",
+                           "reports/day10_langgraph_orchestration.md",
+                           "reports/day13_stabilization.md",
+                           "reports/evidence/demo/demo-validacao-final-01-20260913-215840858.txt",
+                           "reports/evidence/demo/demo-validacao-final-02-20260913-225414711.txt",
+                           "reports/day12_final_analysis.md",
+                           "reports/evidence/evaluation_final_summary.csv",
+                           "reports/evidence/evaluation_judge_agreement.csv",
+                           "reports/figures/evaluation_judge_scores_final.svg",
+                           "reports/figures/evaluation_groundedness_final.svg",
+                           "reports/figures/evaluation_hallucination_final.svg",
+                           "docs/diagrams.md",
+                           "reports/evaluation_final.md",
+                           "docs/RELATORIO_TECNICO.md"
+                       ],
+    "excluded_directories":  [
+                                 ".git",
+                                 ".venv",
+                                 "_backups",
+                                 "data/raw",
+                                 "tmp"
+                             ],
+    "open_blockers":  [
+
+                      ]
+}

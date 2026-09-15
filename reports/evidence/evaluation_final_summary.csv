@@ -1,0 +1,5 @@
+﻿scenario;scenario_label;evaluated_cases;mean_relevance;mean_correctness;mean_completeness;mean_groundedness;hallucination_count;hallucination_rate
+base_without_rag;Base sem RAG;10;1.9;1.7;2.5;;9;0.9
+adjusted_without_rag;Ajustado sem RAG;10;2.3;2.0;2.1;;9;0.9
+base_with_rag;Base com RAG;10;3.8;3.4;3.0;4.666666666666667;4;0.4
+adjusted_with_rag;Ajustado com RAG;10;4.6;4.4;4.1;4.7;1;0.1

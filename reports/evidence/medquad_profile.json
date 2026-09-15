@@ -1,0 +1,2934 @@
+{
+  "analyzed_on": "2026-09-01",
+  "dataset_root": "data/raw/MedQuAD-master",
+  "manifest_sha256": "5584254fc7c66d2d938ccfae586fdf1f40015ba76911010183f0746b64ad9d2b",
+  "totals": {
+    "xml_files": 11274,
+    "parsed_xml_files": 11274,
+    "parse_errors": 0,
+    "documents": 11274,
+    "qa_pairs": 47441,
+    "usable_qa_pairs": 16407,
+    "missing_answer_tag": 0,
+    "empty_answers": 31034,
+    "missing_question_tag": 0,
+    "empty_questions": 0,
+    "missing_qid": 0,
+    "missing_qtype": 0,
+    "missing_focus": 7,
+    "missing_url": 0,
+    "missing_source": 4,
+    "missing_document_id": 5,
+    "missing_focus_annotations": 63,
+    "documents_with_cui": 7727,
+    "documents_without_cui": 3547,
+    "documents_without_qapairs": 10,
+    "min_question_chars": 15,
+    "max_question_chars": 191,
+    "min_answer_chars": 6,
+    "max_answer_chars": 26976,
+    "collections": 12,
+    "distinct_question_types": 39,
+    "duplicate_question_groups": 2971,
+    "duplicate_question_records": 6963,
+    "duplicate_pair_groups": 32,
+    "duplicate_pair_records": 80,
+    "duplicate_qid_groups": 9662,
+    "duplicate_qid_records": 27017
+  },
+  "collections": [
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "xml_files": 4366,
+      "parsed_xml_files": 4366,
+      "parse_errors": 0,
+      "documents": 4366,
+      "qa_pairs": 17348,
+      "usable_qa_pairs": 0,
+      "missing_answer_tag": 0,
+      "empty_answers": 17348,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 2588,
+      "documents_without_cui": 1778,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 0,
+      "max_question_chars": 0,
+      "min_answer_chars": 0,
+      "max_answer_chars": 0,
+      "avg_question_chars": 0,
+      "avg_answer_chars": 0,
+      "copyright_excluded": true,
+      "preliminary_mvp": false
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "xml_files": 1312,
+      "parsed_xml_files": 1312,
+      "parse_errors": 0,
+      "documents": 1312,
+      "qa_pairs": 12889,
+      "usable_qa_pairs": 0,
+      "missing_answer_tag": 0,
+      "empty_answers": 12889,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 0,
+      "documents_without_cui": 1312,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 0,
+      "max_question_chars": 0,
+      "min_answer_chars": 0,
+      "max_answer_chars": 0,
+      "avg_question_chars": 0,
+      "avg_answer_chars": 0,
+      "copyright_excluded": true,
+      "preliminary_mvp": false
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "xml_files": 99,
+      "parsed_xml_files": 99,
+      "parse_errors": 0,
+      "documents": 99,
+      "qa_pairs": 792,
+      "usable_qa_pairs": 0,
+      "missing_answer_tag": 0,
+      "empty_answers": 792,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 0,
+      "documents_without_cui": 99,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 0,
+      "max_question_chars": 0,
+      "min_answer_chars": 0,
+      "max_answer_chars": 0,
+      "avg_question_chars": 0,
+      "avg_answer_chars": 0,
+      "copyright_excluded": true,
+      "preliminary_mvp": false
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "xml_files": 116,
+      "parsed_xml_files": 116,
+      "parse_errors": 0,
+      "documents": 116,
+      "qa_pairs": 729,
+      "usable_qa_pairs": 729,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 116,
+      "documents_without_cui": 0,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 24,
+      "max_question_chars": 120,
+      "min_answer_chars": 49,
+      "max_answer_chars": 26976,
+      "avg_question_chars": 53.88,
+      "avg_answer_chars": 3553.37,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "2_GARD_QA",
+      "xml_files": 2685,
+      "parsed_xml_files": 2685,
+      "parse_errors": 0,
+      "documents": 2685,
+      "qa_pairs": 5394,
+      "usable_qa_pairs": 5389,
+      "missing_answer_tag": 0,
+      "empty_answers": 5,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 2685,
+      "documents_without_cui": 0,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 20,
+      "max_question_chars": 138,
+      "min_answer_chars": 25,
+      "max_answer_chars": 8786,
+      "avg_question_chars": 50.12,
+      "avg_answer_chars": 1298.82,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "3_GHR_QA",
+      "xml_files": 1086,
+      "parsed_xml_files": 1086,
+      "parse_errors": 0,
+      "documents": 1086,
+      "qa_pairs": 5430,
+      "usable_qa_pairs": 5430,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 1086,
+      "documents_without_cui": 0,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 21,
+      "max_question_chars": 149,
+      "min_answer_chars": 34,
+      "max_answer_chars": 4620,
+      "avg_question_chars": 55.85,
+      "avg_answer_chars": 846.15,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "xml_files": 981,
+      "parsed_xml_files": 981,
+      "parse_errors": 0,
+      "documents": 981,
+      "qa_pairs": 981,
+      "usable_qa_pairs": 981,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 686,
+      "documents_without_cui": 295,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 19,
+      "max_question_chars": 74,
+      "min_answer_chars": 195,
+      "max_answer_chars": 1652,
+      "avg_question_chars": 36.13,
+      "avg_answer_chars": 873.49,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "xml_files": 157,
+      "parsed_xml_files": 157,
+      "parse_errors": 0,
+      "documents": 157,
+      "qa_pairs": 1192,
+      "usable_qa_pairs": 1192,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 157,
+      "documents_without_cui": 0,
+      "documents_without_qapairs": 6,
+      "min_question_chars": 22,
+      "max_question_chars": 191,
+      "min_answer_chars": 39,
+      "max_answer_chars": 13345,
+      "avg_question_chars": 51.02,
+      "avg_answer_chars": 1638.26,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "xml_files": 277,
+      "parsed_xml_files": 277,
+      "parse_errors": 0,
+      "documents": 277,
+      "qa_pairs": 1088,
+      "usable_qa_pairs": 1088,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 4,
+      "missing_url": 0,
+      "missing_source": 4,
+      "missing_document_id": 4,
+      "missing_focus_annotations": 4,
+      "documents_with_cui": 273,
+      "documents_without_cui": 4,
+      "documents_without_qapairs": 4,
+      "min_question_chars": 20,
+      "max_question_chars": 121,
+      "min_answer_chars": 39,
+      "max_answer_chars": 3391,
+      "avg_question_chars": 51.67,
+      "avg_answer_chars": 652.88,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "xml_files": 48,
+      "parsed_xml_files": 48,
+      "parse_errors": 0,
+      "documents": 48,
+      "qa_pairs": 769,
+      "usable_qa_pairs": 769,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 48,
+      "documents_without_cui": 0,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 18,
+      "max_question_chars": 91,
+      "min_answer_chars": 68,
+      "max_answer_chars": 12299,
+      "avg_question_chars": 38.71,
+      "avg_answer_chars": 1526.44,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "xml_files": 88,
+      "parsed_xml_files": 88,
+      "parse_errors": 0,
+      "documents": 88,
+      "qa_pairs": 559,
+      "usable_qa_pairs": 559,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 0,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 0,
+      "missing_focus_annotations": 0,
+      "documents_with_cui": 88,
+      "documents_without_cui": 0,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 18,
+      "max_question_chars": 68,
+      "min_answer_chars": 166,
+      "max_answer_chars": 21804,
+      "avg_question_chars": 39.3,
+      "avg_answer_chars": 2739.78,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    },
+    {
+      "collection": "9_CDC_QA",
+      "xml_files": 59,
+      "parsed_xml_files": 59,
+      "parse_errors": 0,
+      "documents": 59,
+      "qa_pairs": 270,
+      "usable_qa_pairs": 270,
+      "missing_answer_tag": 0,
+      "empty_answers": 0,
+      "missing_question_tag": 0,
+      "empty_questions": 0,
+      "missing_qid": 0,
+      "missing_qtype": 0,
+      "missing_focus": 3,
+      "missing_url": 0,
+      "missing_source": 0,
+      "missing_document_id": 1,
+      "missing_focus_annotations": 59,
+      "documents_with_cui": 0,
+      "documents_without_cui": 59,
+      "documents_without_qapairs": 0,
+      "min_question_chars": 15,
+      "max_question_chars": 102,
+      "min_answer_chars": 6,
+      "max_answer_chars": 13622,
+      "avg_question_chars": 54.58,
+      "avg_answer_chars": 1422.81,
+      "copyright_excluded": false,
+      "preliminary_mvp": true
+    }
+  ],
+  "question_types": [
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "causes",
+      "count": 1709
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "complications",
+      "count": 1074
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "considerations",
+      "count": 537
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "exams and tests",
+      "count": 1405
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "information",
+      "count": 4553
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "outlook",
+      "count": 1871
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "prevention",
+      "count": 1029
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "research",
+      "count": 4
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "stages",
+      "count": 3
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "support groups",
+      "count": 220
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "susceptibility",
+      "count": 151
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "symptoms",
+      "count": 1590
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "treatment",
+      "count": 1464
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "question_type": "when to contact a medical professional",
+      "count": 1738
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "brand names",
+      "count": 1238
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "brand names of combination products",
+      "count": 230
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "contraindication",
+      "count": 20
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "dietary",
+      "count": 1092
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "dose",
+      "count": 2
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "emergency or overdose",
+      "count": 1140
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "forget a dose",
+      "count": 1098
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "how can i learn more",
+      "count": 25
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "important warning",
+      "count": 468
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "indication",
+      "count": 1258
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "information",
+      "count": 22
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "other information",
+      "count": 1280
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "precautions",
+      "count": 1314
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "severe reaction",
+      "count": 24
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "side effects",
+      "count": 1301
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "storage and disposal",
+      "count": 1117
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "usage",
+      "count": 1244
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "question_type": "why get vaccinated",
+      "count": 16
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "dose",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "how does it work",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "how effective is it",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "information",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "interactions with foods",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "interactions with herbs and supplements",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "interactions with medications",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "question_type": "precautions",
+      "count": 99
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "causes",
+      "count": 7
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "exams and tests",
+      "count": 82
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "genetic changes",
+      "count": 1
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "information",
+      "count": 112
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "inheritance",
+      "count": 5
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "outlook",
+      "count": 82
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "prevention",
+      "count": 12
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "research",
+      "count": 86
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "stages",
+      "count": 77
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "susceptibility",
+      "count": 88
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "symptoms",
+      "count": 82
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "question_type": "treatment",
+      "count": 95
+    },
+    {
+      "collection": "2_GARD_QA",
+      "question_type": "causes",
+      "count": 439
+    },
+    {
+      "collection": "2_GARD_QA",
+      "question_type": "exams and tests",
+      "count": 283
+    },
+    {
+      "collection": "2_GARD_QA",
+      "question_type": "information",
+      "count": 1394
+    },
+    {
+      "collection": "2_GARD_QA",
+      "question_type": "inheritance",
+      "count": 355
+    },
+    {
+      "collection": "2_GARD_QA",
+      "question_type": "symptoms",
+      "count": 2365
+    },
+    {
+      "collection": "2_GARD_QA",
+      "question_type": "treatment",
+      "count": 558
+    },
+    {
+      "collection": "3_GHR_QA",
+      "question_type": "frequency",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "question_type": "genetic changes",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "question_type": "information",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "question_type": "inheritance",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "question_type": "treatment",
+      "count": 1086
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "question_type": "information",
+      "count": 981
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "causes",
+      "count": 134
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "complications",
+      "count": 38
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "considerations",
+      "count": 231
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "exams and tests",
+      "count": 117
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "frequency",
+      "count": 22
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "information",
+      "count": 296
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "outlook",
+      "count": 2
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "prevention",
+      "count": 49
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "research",
+      "count": 1
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "susceptibility",
+      "count": 40
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "symptoms",
+      "count": 117
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "question_type": "treatment",
+      "count": 145
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "question_type": "complications",
+      "count": 2
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "question_type": "information",
+      "count": 271
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "question_type": "outlook",
+      "count": 271
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "question_type": "research",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "question_type": "treatment",
+      "count": 271
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "causes",
+      "count": 63
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "complications",
+      "count": 5
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "considerations",
+      "count": 4
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "exams and tests",
+      "count": 44
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "frequency",
+      "count": 9
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "information",
+      "count": 267
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "outlook",
+      "count": 1
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "prevention",
+      "count": 40
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "research",
+      "count": 34
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "support groups",
+      "count": 1
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "susceptibility",
+      "count": 64
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "symptoms",
+      "count": 80
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "question_type": "treatment",
+      "count": 157
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "causes",
+      "count": 83
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "exams and tests",
+      "count": 83
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "information",
+      "count": 86
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "outlook",
+      "count": 5
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "prevention",
+      "count": 55
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "susceptibility",
+      "count": 80
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "symptoms",
+      "count": 84
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "question_type": "treatment",
+      "count": 83
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "causes",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "complications",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "exams and tests",
+      "count": 44
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "frequency",
+      "count": 3
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "information",
+      "count": 47
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "prevention",
+      "count": 54
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "research",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "susceptibility",
+      "count": 52
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "symptoms",
+      "count": 20
+    },
+    {
+      "collection": "9_CDC_QA",
+      "question_type": "treatment",
+      "count": 47
+    }
+  ],
+  "issue_counts": {
+    "document_without_qapairs": 10,
+    "empty_answer": 31034,
+    "missing_document_id": 5,
+    "missing_focus": 7,
+    "missing_source": 4
+  },
+  "issue_samples": [
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000001.xml",
+      "record_id": "0000001-1",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000001.xml",
+      "record_id": "0000001-2",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000001.xml",
+      "record_id": "0000001-3",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000001.xml",
+      "record_id": "0000001-6",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000001.xml",
+      "record_id": "0000001-7",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000002.xml",
+      "record_id": "0000002-1",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000003.xml",
+      "record_id": "0000003-1",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000003.xml",
+      "record_id": "0000003-8",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-1",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-2",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-3",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-4",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-5",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-6",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-7",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-8",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-9",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000004.xml",
+      "record_id": "0000004-10",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000005.xml",
+      "record_id": "0000005-1",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "file": "10_MPlus_ADAM_QA/0000005.xml",
+      "record_id": "0000005-2",
+      "issue": "empty_answer"
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "file": "5_NIDDK_QA/0000056.xml",
+      "record_id": "0000056",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "file": "5_NIDDK_QA/0000064.xml",
+      "record_id": "0000064",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "file": "5_NIDDK_QA/0000065.xml",
+      "record_id": "0000065",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "file": "5_NIDDK_QA/0000077.xml",
+      "record_id": "0000077",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "file": "5_NIDDK_QA/0000175.xml",
+      "record_id": "0000175",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "file": "5_NIDDK_QA/0000177.xml",
+      "record_id": "0000177",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000007.xml",
+      "record_id": "",
+      "issue": "missing_document_id"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000007.xml",
+      "record_id": "",
+      "issue": "missing_source"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000007.xml",
+      "record_id": "",
+      "issue": "missing_focus"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000007.xml",
+      "record_id": "",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000018.xml",
+      "record_id": "",
+      "issue": "missing_document_id"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000018.xml",
+      "record_id": "",
+      "issue": "missing_source"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000018.xml",
+      "record_id": "",
+      "issue": "missing_focus"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000018.xml",
+      "record_id": "",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000182.xml",
+      "record_id": "",
+      "issue": "missing_document_id"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000182.xml",
+      "record_id": "",
+      "issue": "missing_source"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000182.xml",
+      "record_id": "",
+      "issue": "missing_focus"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000182.xml",
+      "record_id": "",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000244.xml",
+      "record_id": "",
+      "issue": "missing_document_id"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000244.xml",
+      "record_id": "",
+      "issue": "missing_source"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000244.xml",
+      "record_id": "",
+      "issue": "missing_focus"
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "file": "6_NINDS_QA/0000244.xml",
+      "record_id": "",
+      "issue": "document_without_qapairs"
+    },
+    {
+      "collection": "9_CDC_QA",
+      "file": "9_CDC_QA/0000199.xml",
+      "record_id": "0000199",
+      "issue": "missing_focus"
+    },
+    {
+      "collection": "9_CDC_QA",
+      "file": "9_CDC_QA/0000397.xml",
+      "record_id": "",
+      "issue": "missing_document_id"
+    },
+    {
+      "collection": "9_CDC_QA",
+      "file": "9_CDC_QA/0000423.xml",
+      "record_id": "0000423",
+      "issue": "missing_focus"
+    },
+    {
+      "collection": "9_CDC_QA",
+      "file": "9_CDC_QA/0000424.xml",
+      "record_id": "0000424",
+      "issue": "missing_focus"
+    }
+  ],
+  "schema_tags": [
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Answer",
+      "count": 17348
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "CUI",
+      "count": 3295
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "CUIs",
+      "count": 2588
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Category",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Document",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Focus",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "FocusAnnotations",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "QAPair",
+      "count": 17348
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "QAPairs",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Question",
+      "count": 17348
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "SemanticGroup",
+      "count": 2588
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "SemanticType",
+      "count": 2982
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "SemanticTypes",
+      "count": 2588
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Synonym",
+      "count": 9083
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Synonyms",
+      "count": 3182
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "UMLS",
+      "count": 2588
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Answer",
+      "count": 12889
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Category",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Document",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Focus",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "FocusAnnotations",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "QAPair",
+      "count": 12889
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "QAPairs",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Question",
+      "count": 12889
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Answer",
+      "count": 792
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Category",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Document",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Focus",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "FocusAnnotations",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "QAPair",
+      "count": 792
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "QAPairs",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Question",
+      "count": 792
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Answer",
+      "count": 729
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "CUI",
+      "count": 184
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "CUIs",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Document",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Focus",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "FocusAnnotations",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "QAPair",
+      "count": 729
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "QAPairs",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Question",
+      "count": 729
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "SemanticGroup",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "SemanticType",
+      "count": 120
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "SemanticTypes",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "UMLS",
+      "count": 116
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Answer",
+      "count": 5394
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "CUI",
+      "count": 3923
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "CUIs",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Document",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Focus",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "FocusAnnotations",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "QAPair",
+      "count": 5394
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "QAPairs",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Question",
+      "count": 5394
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "SemanticGroup",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "SemanticType",
+      "count": 3496
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "SemanticTypes",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Synonym",
+      "count": 7907
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Synonyms",
+      "count": 2455
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "UMLS",
+      "count": 2685
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Answer",
+      "count": 5430
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "CUI",
+      "count": 1529
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "CUIs",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Document",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Focus",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "FocusAnnotations",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "QAPair",
+      "count": 5430
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "QAPairs",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Question",
+      "count": 5430
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "SemanticGroup",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "SemanticType",
+      "count": 1401
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "SemanticTypes",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Synonym",
+      "count": 5059
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Synonyms",
+      "count": 1085
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "UMLS",
+      "count": 1086
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Answer",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "CUI",
+      "count": 902
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "CUIs",
+      "count": 686
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Category",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Document",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Focus",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "FocusAnnotations",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "QAPair",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "QAPairs",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Question",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "SemanticGroup",
+      "count": 686
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "SemanticType",
+      "count": 787
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "SemanticTypes",
+      "count": 686
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Synonym",
+      "count": 816
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Synonyms",
+      "count": 462
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "UMLS",
+      "count": 686
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Answer",
+      "count": 1192
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "CUI",
+      "count": 255
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "CUIs",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Document",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Focus",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "FocusAnnotations",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "QAPair",
+      "count": 1192
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "QAPairs",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Question",
+      "count": 1192
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "SemanticGroup",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "SemanticType",
+      "count": 190
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "SemanticTypes",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "UMLS",
+      "count": 157
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Answer",
+      "count": 1088
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "CUI",
+      "count": 346
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "CUIs",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Document",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Focus",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "FocusAnnotations",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "QAPair",
+      "count": 1088
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "QAPairs",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Question",
+      "count": 1088
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "SemanticGroup",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "SemanticType",
+      "count": 321
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "SemanticTypes",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "UMLS",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "answer",
+      "count": 16
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "cui",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "doc",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "doctitle-focus",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "pair",
+      "count": 16
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "qaPairs",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "question",
+      "count": 16
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "semanticGroup",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "semanticType",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "umls",
+      "count": 4
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Answer",
+      "count": 769
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "CUI",
+      "count": 70
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "CUIs",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Document",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Focus",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "FocusAnnotations",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "QAPair",
+      "count": 769
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "QAPairs",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Question",
+      "count": 769
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "SemanticGroup",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "SemanticType",
+      "count": 54
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "SemanticTypes",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "UMLS",
+      "count": 48
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Answer",
+      "count": 559
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "CUI",
+      "count": 116
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "CUIs",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Document",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Focus",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "FocusAnnotations",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "QAPair",
+      "count": 559
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "QAPairs",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Question",
+      "count": 559
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "SemanticGroup",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "SemanticType",
+      "count": 102
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "SemanticTypes",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "UMLS",
+      "count": 88
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Answer",
+      "count": 270
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "CUI",
+      "count": 59
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "DiseaseFile",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Document",
+      "count": 58
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Focus",
+      "count": 59
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "QAPair",
+      "count": 270
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "QAPairs",
+      "count": 59
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Question",
+      "count": 270
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "SemanticGroup",
+      "count": 59
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "SemanticType",
+      "count": 59
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "UMLS",
+      "count": 59
+    }
+  ],
+  "schema_attributes": [
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 4366
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 17348
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 17348
+    },
+    {
+      "collection": "10_MPlus_ADAM_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 17348
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 1312
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 12889
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 12889
+    },
+    {
+      "collection": "11_MPlusDrugs_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 12889
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 99
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 792
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 792
+    },
+    {
+      "collection": "12_MPlusHerbsSupplements_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 792
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 116
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 729
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 729
+    },
+    {
+      "collection": "1_CancerGov_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 729
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 2685
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 5394
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 5394
+    },
+    {
+      "collection": "2_GARD_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 5394
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 1086
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 5430
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 5430
+    },
+    {
+      "collection": "3_GHR_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 5430
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 981
+    },
+    {
+      "collection": "4_MPlus_Health_Topics_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 981
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 157
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 1192
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 1192
+    },
+    {
+      "collection": "5_NIDDK_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 1192
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 273
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 1088
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 1088
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 1088
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "doc",
+      "attribute": "corpus",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "doc",
+      "attribute": "docid",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "doc",
+      "attribute": "url",
+      "count": 4
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "pair",
+      "attribute": "pid",
+      "count": 16
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "question",
+      "attribute": "qid",
+      "count": 16
+    },
+    {
+      "collection": "6_NINDS_QA",
+      "tag": "question",
+      "attribute": "qtype",
+      "count": 16
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 48
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 769
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 769
+    },
+    {
+      "collection": "7_SeniorHealth_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 769
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 88
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 559
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 559
+    },
+    {
+      "collection": "8_NHLBI_QA_XML",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 559
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "DiseaseFile",
+      "attribute": "fid",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "DiseaseFile",
+      "attribute": "source",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "DiseaseFile",
+      "attribute": "url",
+      "count": 1
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Document",
+      "attribute": "id",
+      "count": 58
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Document",
+      "attribute": "source",
+      "count": 58
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Document",
+      "attribute": "url",
+      "count": 58
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "QAPair",
+      "attribute": "pid",
+      "count": 270
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Question",
+      "attribute": "qid",
+      "count": 270
+    },
+    {
+      "collection": "9_CDC_QA",
+      "tag": "Question",
+      "attribute": "qtype",
+      "count": 270
+    }
+  ],
+  "duplicate_samples": {
+    "questions": [
+      [
+        "0000001-2",
+        "0000001-3",
+        "0000001-6",
+        "0000001-7"
+      ],
+      [
+        "0000007-1",
+        "0000006-1"
+      ],
+      [
+        "0000007-3",
+        "0000006-2"
+      ],
+      [
+        "0000014-2",
+        "0000014-4"
+      ],
+      [
+        "0000016-1",
+        "0000002-1"
+      ],
+      [
+        "0000016-2",
+        "0000016-4"
+      ],
+      [
+        "0000017-2",
+        "0000017-4"
+      ],
+      [
+        "0000028-1",
+        "0000028-2"
+      ],
+      [
+        "0000029-1",
+        "0000029-2"
+      ],
+      [
+        "0000031-1",
+        "0000004-1"
+      ],
+      [
+        "0000039-8",
+        "0000039-9"
+      ],
+      [
+        "0000041-7",
+        "0000041-8"
+      ],
+      [
+        "0000042-8",
+        "0000042-9"
+      ],
+      [
+        "0000044-1",
+        "0000037-1"
+      ],
+      [
+        "0000044-2",
+        "0000037-3"
+      ],
+      [
+        "0000044-3",
+        "0000037-2"
+      ],
+      [
+        "0000044-4",
+        "0000037-4"
+      ],
+      [
+        "0000044-5",
+        "0000037-5"
+      ],
+      [
+        "0000048-1",
+        "0000048-2"
+      ],
+      [
+        "0000049-1",
+        "0000042-1",
+        "0000006-1"
+      ]
+    ],
+    "pairs": [
+      [
+        "0000001-6",
+        "0000001-7"
+      ],
+      [
+        "0000027-1",
+        "0000037-1",
+        "0000070-1",
+        "0000071-1"
+      ],
+      [
+        "0000027-2",
+        "0000037-2",
+        "0000070-2",
+        "0000071-2"
+      ],
+      [
+        "0000027-3",
+        "0000037-3",
+        "0000070-3",
+        "0000071-3"
+      ],
+      [
+        "0000027-4",
+        "0000037-4",
+        "0000070-4",
+        "0000071-4"
+      ],
+      [
+        "0000027-5",
+        "0000027-6",
+        "0000037-5",
+        "0000037-6",
+        "0000070-5",
+        "0000070-6",
+        "0000071-5",
+        "0000071-6"
+      ],
+      [
+        "0000027-7",
+        "0000037-7",
+        "0000070-7",
+        "0000071-7"
+      ],
+      [
+        "0000032-3",
+        "0000032-4"
+      ],
+      [
+        "0000032-14",
+        "0000032-15"
+      ],
+      [
+        "0000042-1",
+        "0000042-2"
+      ],
+      [
+        "0000042-3",
+        "0000042-4"
+      ],
+      [
+        "0000042-5",
+        "0000042-6"
+      ],
+      [
+        "0000042-8",
+        "0000042-9"
+      ],
+      [
+        "0000119-1",
+        "0000119-2"
+      ],
+      [
+        "0000119-3",
+        "0000119-4"
+      ],
+      [
+        "0000144-1",
+        "0000144-2"
+      ],
+      [
+        "0000144-6",
+        "0000144-7"
+      ],
+      [
+        "0000144-8",
+        "0000144-9"
+      ],
+      [
+        "0000144-11",
+        "0000144-12"
+      ],
+      [
+        "0000153-5",
+        "0000153-6"
+      ]
+    ],
+    "qids": [
+      [
+        "10_MPlus_ADAM_QA/0000001.xml",
+        "11_MPlusDrugs_QA/0000001.xml",
+        "12_MPlusHerbsSupplements_QA/0000001.xml",
+        "3_GHR_QA/0000001.xml",
+        "4_MPlus_Health_Topics_QA/0000001.xml",
+        "5_NIDDK_QA/0000001.xml",
+        "6_NINDS_QA/0000001.xml",
+        "7_SeniorHealth_QA/0000001.xml",
+        "8_NHLBI_QA_XML/0000001.xml",
+        "9_CDC_QA/0000001.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000001.xml",
+        "11_MPlusDrugs_QA/0000001.xml",
+        "12_MPlusHerbsSupplements_QA/0000001.xml",
+        "3_GHR_QA/0000001.xml",
+        "5_NIDDK_QA/0000001.xml",
+        "6_NINDS_QA/0000001.xml",
+        "8_NHLBI_QA_XML/0000001.xml",
+        "9_CDC_QA/0000001.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000001.xml",
+        "11_MPlusDrugs_QA/0000001.xml",
+        "12_MPlusHerbsSupplements_QA/0000001.xml",
+        "3_GHR_QA/0000001.xml",
+        "5_NIDDK_QA/0000001.xml",
+        "6_NINDS_QA/0000001.xml",
+        "8_NHLBI_QA_XML/0000001.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000001.xml",
+        "11_MPlusDrugs_QA/0000001.xml",
+        "12_MPlusHerbsSupplements_QA/0000001.xml",
+        "5_NIDDK_QA/0000001.xml",
+        "7_SeniorHealth_QA/0000001.xml",
+        "8_NHLBI_QA_XML/0000001.xml",
+        "9_CDC_QA/0000001.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000001.xml",
+        "11_MPlusDrugs_QA/0000001.xml",
+        "12_MPlusHerbsSupplements_QA/0000001.xml",
+        "5_NIDDK_QA/0000001.xml",
+        "8_NHLBI_QA_XML/0000001.xml",
+        "9_CDC_QA/0000001.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000002.xml",
+        "11_MPlusDrugs_QA/0000002.xml",
+        "12_MPlusHerbsSupplements_QA/0000002.xml",
+        "3_GHR_QA/0000002.xml",
+        "4_MPlus_Health_Topics_QA/0000002.xml",
+        "5_NIDDK_QA/0000002.xml",
+        "6_NINDS_QA/0000002.xml",
+        "8_NHLBI_QA_XML/0000002.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000003.xml",
+        "11_MPlusDrugs_QA/0000003.xml",
+        "12_MPlusHerbsSupplements_QA/0000003.xml",
+        "3_GHR_QA/0000003.xml",
+        "4_MPlus_Health_Topics_QA/0000003.xml",
+        "5_NIDDK_QA/0000003.xml",
+        "6_NINDS_QA/0000003.xml",
+        "7_SeniorHealth_QA/0000003.xml",
+        "8_NHLBI_QA_XML/0000003.xml",
+        "9_CDC_QA/0000003.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000003.xml",
+        "11_MPlusDrugs_QA/0000003.xml",
+        "12_MPlusHerbsSupplements_QA/0000003.xml",
+        "8_NHLBI_QA_XML/0000003.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "2_GARD_QA/0000004.xml",
+        "3_GHR_QA/0000004.xml",
+        "4_MPlus_Health_Topics_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "6_NINDS_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "3_GHR_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "6_NINDS_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "3_GHR_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "6_NINDS_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "3_GHR_QA/0000004.xml",
+        "6_NINDS_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "3_GHR_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "12_MPlusHerbsSupplements_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml",
+        "8_NHLBI_QA_XML/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "5_NIDDK_QA/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000004.xml",
+        "11_MPlusDrugs_QA/0000004.xml",
+        "7_SeniorHealth_QA/0000004.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000005.xml",
+        "11_MPlusDrugs_QA/0000005.xml",
+        "12_MPlusHerbsSupplements_QA/0000005.xml",
+        "3_GHR_QA/0000005.xml",
+        "4_MPlus_Health_Topics_QA/0000005.xml",
+        "5_NIDDK_QA/0000005.xml",
+        "6_NINDS_QA/0000005.xml",
+        "7_SeniorHealth_QA/0000005.xml",
+        "8_NHLBI_QA_XML/0000005.xml"
+      ],
+      [
+        "10_MPlus_ADAM_QA/0000005.xml",
+        "11_MPlusDrugs_QA/0000005.xml",
+        "12_MPlusHerbsSupplements_QA/0000005.xml",
+        "3_GHR_QA/0000005.xml",
+        "5_NIDDK_QA/0000005.xml",
+        "6_NINDS_QA/0000005.xml",
+        "7_SeniorHealth_QA/0000005.xml"
+      ]
+    ]
+  }
+}

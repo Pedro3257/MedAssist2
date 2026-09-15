@@ -1,0 +1,21 @@
+# Configura o modelo MedAssist local usando o Llama 3.2 1B
+# como base e aplica o adapter QLoRA definitivo treinado no Kaggle.
+
+FROM llama3.2:1b
+
+ADAPTER ../../models/medassist-local/1.0.0/ollama/medassist-llama32-1b-qlora-adapter-v1.0.0-f16.gguf
+
+# Mantém a geração determinística e reduz repetições.
+PARAMETER temperature 0
+PARAMETER repeat_penalty 1.1
+
+# Define o limite do contexto e da resposta.
+PARAMETER num_ctx 2048
+PARAMETER num_predict 384
+
+# Reutiliza o mesmo papel definido durante o treinamento.
+SYSTEM """
+You are MedAssist, an educational medical information assistant.
+Answer the user's medical question clearly and objectively.
+Do not present the answer as a medical diagnosis or replace professional care.
+"""

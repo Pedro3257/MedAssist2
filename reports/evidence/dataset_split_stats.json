@@ -1,0 +1,79 @@
+{
+  "input_path": "data/processed/medquad_curated.jsonl",
+  "output_dir": "data/processed",
+  "seed": 42,
+  "selection": {
+    "available_records": 16339,
+    "available_focuses": 4740,
+    "target_records": 6000,
+    "selected_records": 6000,
+    "selected_focuses": 1754,
+    "minimum_records": 3000,
+    "maximum_records": 8000
+  },
+  "splits": {
+    "train": {
+      "records": 4795,
+      "focuses": 1384,
+      "sha256": "345733af99f04aae0bd007d50378781dcca476f7085569b07dd7cb17381c8f0a"
+    },
+    "validation": {
+      "records": 603,
+      "focuses": 187,
+      "sha256": "d9aa25821e43aca8b3337b1cd4b2422c4735854b4b2e13afe9d63d0a18fb9d34"
+    },
+    "test": {
+      "records": 602,
+      "focuses": 183,
+      "sha256": "c42031676434f1ce8bc6b5f200d4c14881e32d86a9ed048e51ad2271c26c4938"
+    }
+  },
+  "evaluation": {
+    "records": 50,
+    "focuses": 38,
+    "source": "deterministic subset of test",
+    "sha256": "92e8ffb4965d35ece00dad3ebfc4cd7d173ca8c563cacca24f0881b72c8742b2"
+  },
+  "overlaps": {
+    "train_vs_validation": {
+      "focuses": 0,
+      "records": 0
+    },
+    "train_vs_test": {
+      "focuses": 0,
+      "records": 0
+    },
+    "validation_vs_test": {
+      "focuses": 0,
+      "records": 0
+    }
+  },
+  "selected_by_collection": {
+    "1_CancerGov_QA": 308,
+    "2_GARD_QA": 1997,
+    "3_GHR_QA": 1930,
+    "4_MPlus_Health_Topics_QA": 356,
+    "5_NIDDK_QA": 480,
+    "6_NINDS_QA": 392,
+    "7_SeniorHealth_QA": 254,
+    "8_NHLBI_QA_XML": 191,
+    "9_CDC_QA": 92
+  },
+  "selected_by_question_type": {
+    "causes": 251,
+    "complications": 14,
+    "considerations": 100,
+    "exams and tests": 257,
+    "frequency": 399,
+    "genetic changes": 386,
+    "information": 1644,
+    "inheritance": 517,
+    "outlook": 133,
+    "prevention": 63,
+    "research": 146,
+    "stages": 35,
+    "susceptibility": 116,
+    "symptoms": 1032,
+    "treatment": 907
+  }
+}

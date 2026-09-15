@@ -1,0 +1,1 @@
+'''MedAssist test suite.'''

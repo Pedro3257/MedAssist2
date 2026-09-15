@@ -1,0 +1,11 @@
+{
+  "selected": 50,
+  "success": 48,
+  "error": 0,
+  "skipped": 2,
+  "scenario": "base_without_rag",
+  "model": "llama3.2:1b",
+  "rag_enabled": false,
+  "input_sha256": "D4E26501B1EC2F2708FA7D20C920B3A7B7ABB1AB0ADCC5CD4EF1D87F8515421E",
+  "output": "reports/evidence/evaluation_base_without_rag.jsonl"
+}

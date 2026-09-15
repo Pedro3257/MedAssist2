@@ -1,0 +1,13 @@
+{
+    "selected":  50,
+    "completed":  50,
+    "success":  49,
+    "error":  1,
+    "processed_this_run":  18,
+    "skipped_this_run":  32,
+    "scenario":  "base_with_rag",
+    "model":  "llama3.2:1b",
+    "rag_enabled":  true,
+    "input_sha256":  "D4E26501B1EC2F2708FA7D20C920B3A7B7ABB1AB0ADCC5CD4EF1D87F8515421E",
+    "output":  "reports/evidence/evaluation_base_with_rag.jsonl"
+}

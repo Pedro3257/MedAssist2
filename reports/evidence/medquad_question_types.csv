@@ -1,0 +1,113 @@
+collection,question_type,count
+10_MPlus_ADAM_QA,causes,1709
+10_MPlus_ADAM_QA,complications,1074
+10_MPlus_ADAM_QA,considerations,537
+10_MPlus_ADAM_QA,exams and tests,1405
+10_MPlus_ADAM_QA,information,4553
+10_MPlus_ADAM_QA,outlook,1871
+10_MPlus_ADAM_QA,prevention,1029
+10_MPlus_ADAM_QA,research,4
+10_MPlus_ADAM_QA,stages,3
+10_MPlus_ADAM_QA,support groups,220
+10_MPlus_ADAM_QA,susceptibility,151
+10_MPlus_ADAM_QA,symptoms,1590
+10_MPlus_ADAM_QA,treatment,1464
+10_MPlus_ADAM_QA,when to contact a medical professional,1738
+11_MPlusDrugs_QA,brand names,1238
+11_MPlusDrugs_QA,brand names of combination products,230
+11_MPlusDrugs_QA,contraindication,20
+11_MPlusDrugs_QA,dietary,1092
+11_MPlusDrugs_QA,dose,2
+11_MPlusDrugs_QA,emergency or overdose,1140
+11_MPlusDrugs_QA,forget a dose,1098
+11_MPlusDrugs_QA,how can i learn more,25
+11_MPlusDrugs_QA,important warning,468
+11_MPlusDrugs_QA,indication,1258
+11_MPlusDrugs_QA,information,22
+11_MPlusDrugs_QA,other information,1280
+11_MPlusDrugs_QA,precautions,1314
+11_MPlusDrugs_QA,severe reaction,24
+11_MPlusDrugs_QA,side effects,1301
+11_MPlusDrugs_QA,storage and disposal,1117
+11_MPlusDrugs_QA,usage,1244
+11_MPlusDrugs_QA,why get vaccinated,16
+12_MPlusHerbsSupplements_QA,dose,99
+12_MPlusHerbsSupplements_QA,how does it work,99
+12_MPlusHerbsSupplements_QA,how effective is it,99
+12_MPlusHerbsSupplements_QA,information,99
+12_MPlusHerbsSupplements_QA,interactions with foods,99
+12_MPlusHerbsSupplements_QA,interactions with herbs and supplements,99
+12_MPlusHerbsSupplements_QA,interactions with medications,99
+12_MPlusHerbsSupplements_QA,precautions,99
+1_CancerGov_QA,causes,7
+1_CancerGov_QA,exams and tests,82
+1_CancerGov_QA,genetic changes,1
+1_CancerGov_QA,information,112
+1_CancerGov_QA,inheritance,5
+1_CancerGov_QA,outlook,82
+1_CancerGov_QA,prevention,12
+1_CancerGov_QA,research,86
+1_CancerGov_QA,stages,77
+1_CancerGov_QA,susceptibility,88
+1_CancerGov_QA,symptoms,82
+1_CancerGov_QA,treatment,95
+2_GARD_QA,causes,439
+2_GARD_QA,exams and tests,283
+2_GARD_QA,information,1394
+2_GARD_QA,inheritance,355
+2_GARD_QA,symptoms,2365
+2_GARD_QA,treatment,558
+3_GHR_QA,frequency,1086
+3_GHR_QA,genetic changes,1086
+3_GHR_QA,information,1086
+3_GHR_QA,inheritance,1086
+3_GHR_QA,treatment,1086
+4_MPlus_Health_Topics_QA,information,981
+5_NIDDK_QA,causes,134
+5_NIDDK_QA,complications,38
+5_NIDDK_QA,considerations,231
+5_NIDDK_QA,exams and tests,117
+5_NIDDK_QA,frequency,22
+5_NIDDK_QA,information,296
+5_NIDDK_QA,outlook,2
+5_NIDDK_QA,prevention,49
+5_NIDDK_QA,research,1
+5_NIDDK_QA,susceptibility,40
+5_NIDDK_QA,symptoms,117
+5_NIDDK_QA,treatment,145
+6_NINDS_QA,complications,2
+6_NINDS_QA,information,271
+6_NINDS_QA,outlook,271
+6_NINDS_QA,research,273
+6_NINDS_QA,treatment,271
+7_SeniorHealth_QA,causes,63
+7_SeniorHealth_QA,complications,5
+7_SeniorHealth_QA,considerations,4
+7_SeniorHealth_QA,exams and tests,44
+7_SeniorHealth_QA,frequency,9
+7_SeniorHealth_QA,information,267
+7_SeniorHealth_QA,outlook,1
+7_SeniorHealth_QA,prevention,40
+7_SeniorHealth_QA,research,34
+7_SeniorHealth_QA,support groups,1
+7_SeniorHealth_QA,susceptibility,64
+7_SeniorHealth_QA,symptoms,80
+7_SeniorHealth_QA,treatment,157
+8_NHLBI_QA_XML,causes,83
+8_NHLBI_QA_XML,exams and tests,83
+8_NHLBI_QA_XML,information,86
+8_NHLBI_QA_XML,outlook,5
+8_NHLBI_QA_XML,prevention,55
+8_NHLBI_QA_XML,susceptibility,80
+8_NHLBI_QA_XML,symptoms,84
+8_NHLBI_QA_XML,treatment,83
+9_CDC_QA,causes,1
+9_CDC_QA,complications,1
+9_CDC_QA,exams and tests,44
+9_CDC_QA,frequency,3
+9_CDC_QA,information,47
+9_CDC_QA,prevention,54
+9_CDC_QA,research,1
+9_CDC_QA,susceptibility,52
+9_CDC_QA,symptoms,20
+9_CDC_QA,treatment,47

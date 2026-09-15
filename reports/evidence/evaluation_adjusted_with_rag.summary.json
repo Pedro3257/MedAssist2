@@ -1,0 +1,13 @@
+{
+  "selected": 50,
+  "completed": 50,
+  "success": 50,
+  "error": 0,
+  "processed_this_run": 50,
+  "skipped_this_run": 0,
+  "scenario": "adjusted_with_rag",
+  "model": "medassist-local:1.0.0",
+  "rag_enabled": true,
+  "input_sha256": "D4E26501B1EC2F2708FA7D20C920B3A7B7ABB1AB0ADCC5CD4EF1D87F8515421E",
+  "output": "reports/evidence/evaluation_adjusted_with_rag.jsonl"
+}

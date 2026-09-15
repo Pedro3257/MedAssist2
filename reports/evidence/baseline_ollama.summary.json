@@ -1,0 +1,10 @@
+{
+  "selected": 50,
+  "success": 50,
+  "error": 0,
+  "skipped": 0,
+  "provider": "ollama",
+  "configured_model": "llama3.2:1b",
+  "system_prompt_version": "1.0.0",
+  "output": "reports/evidence/baseline_ollama.jsonl"
+}

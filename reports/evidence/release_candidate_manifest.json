@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "project": "MedAssist",
+  "target_version": "1.0.0-rc1",
+  "status": "ready_to_freeze",
+  "generated_at": "2026-09-14T13:48:17.045810+00:00",
+  "required_file_count": 29,
+  "verified_file_count": 29,
+  "missing_paths": [],
+  "excluded_directories": [
+    ".git",
+    ".venv",
+    "_backups",
+    "data/raw",
+    "tmp"
+  ],
+  "open_blockers": [],
+  "files": [
+    {
+      "path": ".env.example",
+      "size_bytes": 1141,
+      "sha256": "f7319bfb1548e0598986212e54c8044d735cea2385c7ce80805841f6c5d44499"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 13603,
+      "sha256": "4b433c4354d251276fe52766892afd432aa9f5149eaa9b2611b6752874fea0b7"
+    },
+    {
+      "path": "compose.yaml",
+      "size_bytes": 727,
+      "sha256": "815e6abc65a9ed7ec7fee2352904f0bf655d006aa353e20e32eea23a63e4c61a"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 176,
+      "sha256": "a052f5f85d9dc9addee8587e8af8eb9609fc477ccf3328e82d2e2191de6a731d"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "size_bytes": 1003,
+      "sha256": "eca3217457e5f7a959daed581e3c1affcf9a974a0b70728bda2d56808461122c"
+    },
+    {
+      "path": "requirements-training.txt",
+      "size_bytes": 237,
+      "sha256": "5512c591ea59a0a60357970485f21f0ba3acffc0e901f5a6591178b3735708e3"
+    },
+    {
+      "path": "configs/demo_questions.json",
+      "size_bytes": 1247,
+      "sha256": "483abe63ebd93d09994a4f121e1718a75ff58a89dc81005fed534651cf394ade"
+    },
+    {
+      "path": "docs/demo_script.md",
+      "size_bytes": 2778,
+      "sha256": "bdb6396cdbc770ac42b277540715132f4009df339f4dc511951305695131d284"
+    },
+    {
+      "path": "docs/MedAssit_Demo.pdf",
+      "size_bytes": 381394,
+      "sha256": "89a0c073b42f28fd5faddb73d1244959edc20269ddc33549c70c53e890db91df"
+    },
+    {
+      "path": "docs/ollama.md",
+      "size_bytes": 3007,
+      "sha256": "f5f43155b84c6631a2b31f3ea5b24eea76c595606368dd411ba1d8efb7d8e035"
+    },
+    {
+      "path": "scripts/run_demo.ps1",
+      "size_bytes": 4761,
+      "sha256": "2cdb1b42cc125af8bfa18fe1ea2574176e11ad95e4b44a1646cb8285b4b71b8b"
+    },
+    {
+      "path": "scripts/start_medassist.ps1",
+      "size_bytes": 5073,
+      "sha256": "37374d21d6907741d1043767cfe6e7aa67baa2219d0c64a4ee7fe3561dfe5634"
+    },
+    {
+      "path": "specs/architecture.md",
+      "size_bytes": 4657,
+      "sha256": "3c3543c704824cbde4d982e7d258212fdf2e93e7c24388e0dee4692e502420ab"
+    },
+    {
+      "path": "specs/requirements.md",
+      "size_bytes": 7158,
+      "sha256": "3d105a02249a27873f45e84d6884f11f5c0b4672fa101546b39d7967c520e025"
+    },
+    {
+      "path": "specs/traceability.md",
+      "size_bytes": 8348,
+      "sha256": "895972c7d2fbc5f04a09797a575442b773e0bb5fba3ee2deb6fd5bb78b1a2bfe"
+    },
+    {
+      "path": "reports/day7_finetuning.md",
+      "size_bytes": 3309,
+      "sha256": "4b922fb912c4b69508185bab23918d964c9f6741a84258ff2997a875ed7b9309"
+    },
+    {
+      "path": "reports/day10_langgraph_orchestration.md",
+      "size_bytes": 2996,
+      "sha256": "a673cd93167acba2e6fae76236a8b0556fc64ddd7383f15e858786cf0d3b57e3"
+    },
+    {
+      "path": "reports/day13_stabilization.md",
+      "size_bytes": 4271,
+      "sha256": "198d029f0658b3fe5fe4a88058e1014b2090c1709fa6b0e1cdb24294f10cf6b3"
+    },
+    {
+      "path": "reports/evidence/demo/demo-validacao-final-01-20260913-215840858.txt",
+      "size_bytes": 9406,
+      "sha256": "b8efee51d56b0b4651a340629151eb938b56c71ae998e9f6cbcae1558920d903"
+    },
+    {
+      "path": "reports/evidence/demo/demo-validacao-final-02-20260913-225414711.txt",
+      "size_bytes": 9319,
+      "sha256": "1c9ab9ca46b5a8942874d4cfce6109062d0bbc8421e172d9c52cb67931493075"
+    },
+    {
+      "path": "reports/day12_final_analysis.md",
+      "size_bytes": 2417,
+      "sha256": "2ef1c9bd01ab8b4e8f2b6d5d220b68f85a040972f970570e2e3141854aae10d6"
+    },
+    {
+      "path": "reports/evidence/evaluation_final_summary.csv",
+      "size_bytes": 393,
+      "sha256": "844b1dfaac34135555f9d78f54eae99fbe6accc6b065159531043fc3fb38347c"
+    },
+    {
+      "path": "reports/evidence/evaluation_judge_agreement.csv",
+      "size_bytes": 240,
+      "sha256": "07a4c7cf00b615f736171c7feb61a27f6b7c2e5c4e6d21967be160e1746a4d23"
+    },
+    {
+      "path": "reports/figures/evaluation_judge_scores_final.svg",
+      "size_bytes": 4938,
+      "sha256": "3df905b87d6d247f7c097f231614a3ba094f037645b66e4a2b0bae6ae3b24f1c"
+    },
+    {
+      "path": "reports/figures/evaluation_groundedness_final.svg",
+      "size_bytes": 2489,
+      "sha256": "3ea8cf3d3c449e12f081591241d29b206785dd4456eeb1efbb6c12b420544dde"
+    },
+    {
+      "path": "reports/figures/evaluation_hallucination_final.svg",
+      "size_bytes": 3038,
+      "sha256": "6204b582a748566f22cfae8f9788a5489e2eacc7c4c8677bbe5615797448dec0"
+    },
+    {
+      "path": "docs/diagrams.md",
+      "size_bytes": 2089,
+      "sha256": "d861ad1e3ece303bce323ac8056be0ff303749deb490f9ededf21d88f806cc56"
+    },
+    {
+      "path": "reports/evaluation_final.md",
+      "size_bytes": 2417,
+      "sha256": "2ef1c9bd01ab8b4e8f2b6d5d220b68f85a040972f970570e2e3141854aae10d6"
+    },
+    {
+      "path": "docs/RELATORIO_TECNICO.md",
+      "size_bytes": 17154,
+      "sha256": "99c0529d5663f348b0c2bf8751ba43dd40e512226601a1535984041849c23496"
+    }
+  ]
+}

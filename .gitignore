@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Ambientes e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Notebooks e IDEs
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Dados e artefatos gerados
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+models/
+artifacts/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Temporários locais
+.codex-pptx/
+tmp/
+_backups/

@@ -1,0 +1,27 @@
+﻿scenario;case_id;question;lexical_f1;execution_error;reference_url_missed;selection_reason
+adjusted_with_rag;medical_004;How many people are affected by chordoma ?;0.103093;;False;among_five_lowest_lexical_f1
+adjusted_with_rag;medical_012;What are the treatments for Danon disease ?;0.271845;;True;reference_url_missed
+adjusted_with_rag;medical_014;What is (are) Retinal vasculopathy with cerebral leukodystrophy ?;0.146119;;False;among_five_lowest_lexical_f1
+adjusted_with_rag;medical_016;What is (are) Urinary Tract Infections ?;0.227273;;True;reference_url_missed
+adjusted_with_rag;medical_021;What are the treatments for Cerebro-Oculo-Facio-Skeletal Syndrome (COFS) ?;0.102564;;False;among_five_lowest_lexical_f1
+adjusted_with_rag;medical_022;What is (are) Dysgraphia ?;0.053097;;False;among_five_lowest_lexical_f1
+adjusted_with_rag;medical_035;What are the treatments for Bronchitis ?;0.139175;;False;among_five_lowest_lexical_f1
+adjusted_with_rag;medical_036;What to do for Goodpasture Syndrome ?;0.190476;;True;reference_url_missed
+adjusted_without_rag;medical_010;What are the symptoms of Dyskeratosis congenita autosomal recessive ?;0.018349;;False;among_five_lowest_lexical_f1
+adjusted_without_rag;medical_018;What is (are) Parasites - Babesiosis ?;0.021739;;False;among_five_lowest_lexical_f1
+adjusted_without_rag;medical_024;What are the symptoms of Osteogenesis imperfecta type VI ?;0.026954;;False;among_five_lowest_lexical_f1
+adjusted_without_rag;medical_029;What are the symptoms of Multicentric Castleman Disease ?;0.042328;;False;among_five_lowest_lexical_f1
+adjusted_without_rag;medical_034;What is (are) Hemicrania Continua ?;0.019802;;False;among_five_lowest_lexical_f1
+base_with_rag;medical_001;How to diagnose What I need to know about Diarrhea ?;0.019802;;False;among_five_lowest_lexical_f1
+base_with_rag;medical_012;What are the treatments for Danon disease ?;0.023392;;True;"among_five_lowest_lexical_f1;reference_url_missed"
+base_with_rag;medical_016;What is (are) Urinary Tract Infections ?;0.100629;;True;reference_url_missed
+base_with_rag;medical_030;Is Danon disease inherited ?;0.035088;;False;among_five_lowest_lexical_f1
+base_with_rag;medical_031;What are the symptoms of Kidney Stones in Adults ?;0.012048;;False;among_five_lowest_lexical_f1
+base_with_rag;medical_033;What are the genetic changes related to protein S deficiency ?;;LLMProviderInvalidResponseError;True;"reference_url_missed;execution_error"
+base_with_rag;medical_036;What to do for Goodpasture Syndrome ?;0.105263;;True;reference_url_missed
+base_with_rag;medical_038;What is (are) Robinow syndrome ?;0.022388;;False;among_five_lowest_lexical_f1
+base_without_rag;medical_001;How to diagnose What I need to know about Diarrhea ?;0.008889;;False;among_five_lowest_lexical_f1
+base_without_rag;medical_004;How many people are affected by chordoma ?;0.008403;;False;among_five_lowest_lexical_f1
+base_without_rag;medical_007;What are the treatments for Iron-Deficiency Anemia ?;0.005249;;False;among_five_lowest_lexical_f1
+base_without_rag;medical_011;Is Danon disease inherited ?;0.00823;;False;among_five_lowest_lexical_f1
+base_without_rag;medical_017;What are the symptoms of Goodpasture Syndrome ?;0.014085;;False;among_five_lowest_lexical_f1
